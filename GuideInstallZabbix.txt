@@ -1,0 +1,14 @@
+https://raw.githubusercontent.com/Duaka1/zabbix/refs/heads/main/installZabbix.sh
+
+
+
+#Tải script
+wget https://raw.githubusercontent.com/Duaka1/zabbix/refs/heads/main/installZabbix.sh -O /installZabbix.sh
+
+
+
+*** CHUYỂN SANG USER ROOT TRƯỚC KHI CHẠY SCRIPT***
+sudo su
+chmod +x /installZabbix.sh && /installZabbix.sh
+
+
